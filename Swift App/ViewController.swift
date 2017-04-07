@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         coolLabel.text = "Nuts"
 
         noOfButtonTaps = noOfButtonTaps + 1
-        if noOfButtonTaps > 10 {
+        if noOfButtonTaps > 20 {
             coolLabel.text = "ARGGGHHH! Stop pressing the button!!"
         }
         
