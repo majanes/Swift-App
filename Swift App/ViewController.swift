@@ -12,17 +12,17 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var coolLabel: UILabel!
     
-    var noOfButtonTaps = 0
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
+    
+    var a = 0
+    var b = 0
     
     @IBAction func buttonTapped(_ sender: Any) {
-        coolLabel.text = "Nuts"
+        print(text1.text!, text2.text!)
 
-        noOfButtonTaps = noOfButtonTaps + 1
-        if noOfButtonTaps > 20 {
-            coolLabel.text = "ARGGGHHH! Stop pressing the button!!"
-        }
-        
-        print(noOfButtonTaps, "Button tapped")
+        coolLabel.text = "Answer = \(Double(text1.text!)! + Double(text2.text!)!)"
     }
 
     @IBAction func button2Tapped(_ sender: Any) {
