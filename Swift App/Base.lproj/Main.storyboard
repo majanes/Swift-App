@@ -34,15 +34,8 @@
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ksc-3U-qxz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8D8-as-Hii">
-                                <rect key="frame" x="130" y="129" width="116" height="30"/>
-                                <state key="normal" title="DON'T PUSH ME"/>
-                                <connections>
-                                    <action selector="button2Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E1F-G2-3PZ"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fG-v7-HfT">
-                                <rect key="frame" x="137" y="178" width="100" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fG-v7-HfT">
+                                <rect key="frame" x="137" y="127" width="100" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="CaU-LD-5Em"/>
                                 </constraints>
@@ -50,8 +43,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NM8-va-4yI">
-                                <rect key="frame" x="137.5" y="257" width="100" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NM8-va-4yI">
+                                <rect key="frame" x="137" y="256" width="100" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="HD5-h9-w7T"/>
                                 </constraints>
@@ -63,12 +56,10 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Zhl-gh-And" firstAttribute="top" secondItem="I3r-0v-QyK" secondAttribute="bottom" constant="10" id="EqC-xA-85c"/>
-                            <constraint firstItem="8D8-as-Hii" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FTD-RX-oTK"/>
                             <constraint firstItem="NM8-va-4yI" firstAttribute="top" secondItem="0fG-v7-HfT" secondAttribute="bottom" constant="49" id="J2T-Gt-HEG"/>
+                            <constraint firstItem="0fG-v7-HfT" firstAttribute="top" secondItem="Zhl-gh-And" secondAttribute="bottom" constant="77" id="Ktd-6u-mHK"/>
                             <constraint firstItem="I3r-0v-QyK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OEq-gC-ZCa"/>
-                            <constraint firstItem="8D8-as-Hii" firstAttribute="top" secondItem="Zhl-gh-And" secondAttribute="bottom" constant="28" id="RmW-gf-YSG"/>
                             <constraint firstItem="Zhl-gh-And" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cRv-IP-1FS"/>
-                            <constraint firstItem="0fG-v7-HfT" firstAttribute="top" secondItem="8D8-as-Hii" secondAttribute="bottom" constant="19" id="d1J-BQ-yOA"/>
                             <constraint firstItem="I3r-0v-QyK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="fGj-Is-uGE"/>
                             <constraint firstItem="0fG-v7-HfT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vLB-Kc-4d6"/>
                             <constraint firstItem="NM8-va-4yI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z2p-56-ZcB"/>
